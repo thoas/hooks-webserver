@@ -16,6 +16,9 @@ docker-build:
 docker-run:
 	@(docker run -p 8080:8080 -t webserver:latest)
 
+test:
+	go test ./...
+
 lint:
 	golangci-lint run .
 

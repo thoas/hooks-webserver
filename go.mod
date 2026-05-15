@@ -1,3 +1,3 @@
 module github.com/thoas/golang-webserver
 
-go 1.23.2
+go 1.26.2
